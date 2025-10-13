@@ -30,7 +30,7 @@ body {
   margin: 0;
   background: var(--bg);
   color: var(--fg);
-  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  font-family: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
   line-height: 1.6;
   max-width: 720px;
   padding: 40px 20px;
