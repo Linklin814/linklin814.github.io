@@ -201,6 +201,40 @@ footer {
   transition: opacity .2s ease;
 }
 
+/* ---------- Table of Contents ---------- */
+.toc {
+  background: rgba(52, 211, 153, 0.1);
+  border-left: 3px solid var(--accent);
+  padding: 1rem 1.2rem;
+  margin: 1.5rem 0;
+  border-radius: 6px;
+}
+
+.toc h3 {
+  margin-top: 0;
+  font-size: 1rem;
+  color: var(--accent);
+}
+
+.toc ul {
+  margin: 0.5rem 0 0 1rem;
+  padding: 0;
+  list-style-type: none;
+}
+
+.toc li {
+  margin: 0.3rem 0;
+}
+
+.toc a {
+  color: var(--fg);
+  text-decoration: none;
+}
+
+.toc a:hover {
+  color: var(--accent);
+}
+
 .back-home:hover,
 .back-home:focus-visible {
   opacity: 0.8;

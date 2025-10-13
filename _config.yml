@@ -4,3 +4,6 @@ title: Iliyan Jivraj
 #description: Rants and Rambles
 plugins:
   - jekyll-last-modified-at
+markdown: kramdown
+kramdown:
+  toc_levels: 2..3
