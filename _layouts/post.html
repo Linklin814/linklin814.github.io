@@ -14,12 +14,17 @@ layout: default
     {% endif %}
   </p>
 
-  {% if page.content contains '<h2' %}
+  {%- capture _toc -%}
+* TOC
+{:toc}
+  {%- endcapture -%}
+
+  {%- if page.content contains '## ' -%}
   <nav class="toc">
     <h3>Table of Contents</h3>
-    {{ content | toc_only }}
+    {{ _toc | markdownify }}
   </nav>
-  {% endif %}
+  {%- endif -%}
 
   {{ content }}
 
