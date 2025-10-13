@@ -29,7 +29,7 @@ body {
   margin: 0;
   background: var(--bg);
   color: var(--fg);
-  font-family: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+  font-family: "Meslo LG", ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
   line-height: 1.6;
   max-width: 720px;
   padding: 72px 20px 40px;
