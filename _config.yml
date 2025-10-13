@@ -1,6 +1,4 @@
 url: "https://iliyan61.github.io"
 baseurl: "/iliyan61"
-title: Cactus
-description: Rants and Rambles
-plugins:
-  - jekyll-last-modified-at
+title: Iliyan Jivraj
+#description: Rants and Rambles
