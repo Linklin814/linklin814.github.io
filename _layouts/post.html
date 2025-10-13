@@ -1,13 +1,18 @@
 ---
 layout: default
 ---
+
 <article class="post">
   <h2>{{ page.title }}</h2>
-  <p><small>{{ page.date | date: "%d %B %Y" }}</small></p>
-  {% assign updated = page.last_modified_at | default: page.date %}
-  {% if updated != page.date %}
-    <span class="last-updated">Updated: {{ updated | date: "%-d %B %Y" }}</span>
-  {% endif %}
+
+  <p class="post-date">
+    <small>{{ page.date | date: "%-d %B %Y" }}</small>
+    <span class="last-updated">
+      Updated: {{ site.time | date: "%-d %B %Y" }}
+    </span>
+  </p>
+
   {{ content }}
+
   <p><a href="{{ '/' | relative_url }}" class="back-home">← Back to Home</a></p>
 </article>
