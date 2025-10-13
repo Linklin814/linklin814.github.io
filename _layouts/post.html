@@ -19,7 +19,7 @@ layout: default
 {:toc}
   {%- endcapture -%}
 
-  {%- if page.content contains '## ' -%}
+  {%- if page.content contains '# ' or page.content contains '## ' or page.content contains '<h1' or page.content contains '<h2' -%}
   <nav class="toc">
     <h3>Table of Contents</h3>
     {{ _toc | markdownify }}
