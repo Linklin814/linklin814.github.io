@@ -209,50 +209,58 @@ footer {
   margin: 1.5rem 0;
   background: rgba(52, 211, 153, 0.08);
   color: var(--fg);
-  position: relative;
   line-height: 1.55;
 }
 
-/* title line inside box */
+/* Title line (with icon inline) */
 .admonition strong:first-child {
-  display: block;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
   font-weight: 600;
   margin-bottom: 0.4rem;
 }
 
-/* icon slot */
-.admonition::before {
-  position: absolute;
-  left: -1.75rem;
-  top: 1.1rem;
-  font-size: 1.2rem;
-}
-
-/* Variants -------------------------------------------------- */
+/* Variant: Info */
 .admonition.info {
-  border-color: #60a5fa;
-  background: rgba(96,165,250,0.10);
-  color: #3b82f6;
+  border-color: #3b82f6;
+  background: #1e293b;
+  color: #bfdbfe;
 }
-.admonition.info::before { content: "ℹ️"; }
+.admonition.info strong:first-child::before {
+  content: "ℹ️";
+  color: #60a5fa;
+}
 
+/* Variant: Warning */
 .admonition.warn {
-  border-color: #fbbf24;
-  background: rgba(251,191,36,0.10);
-  color: #d97706;
+  border-color: #f59e0b;
+  background: #3d2f13;
+  color: #fcd34d;
 }
-.admonition.warn::before { content: "⚠️"; }
+.admonition.warn strong:first-child::before {
+  content: "⚠️";
+  color: #fbbf24;
+}
 
+/* Variant: Danger */
 .admonition.danger {
-  border-color: #f87171;
-  background: rgba(248,113,113,0.10);
-  color: #dc2626;
+  border-color: #ef4444;
+  background: #3b0d0d;
+  color: #fca5a5;
 }
-.admonition.danger::before { content: "❌"; }
+.admonition.danger strong:first-child::before {
+  content: "❌";
+  color: #ef4444;
+}
 
+/* Variant: Tip */
 .admonition.tip {
-  border-color: #34d399;
-  background: rgba(52,211,153,0.10);
-  color: #059669;
+  border-color: #10b981;
+  background: #0d3025;
+  color: #6ee7b7;
 }
-.admonition.tip::before { content: "💡"; }
+.admonition.tip strong:first-child::before {
+  content: "💡";
+  color: #34d399;
+}
