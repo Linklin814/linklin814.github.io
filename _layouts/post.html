@@ -6,9 +6,11 @@ layout: default
   <h2>{{ page.title }}</h2>
 
   <p class="post-date">
-    <small>{{ page.date | date: "%-d %B %Y" }}</small>
+    <small>
+      {{ page.date | date: "%-d %B %Y, %H:%M" }}
+    </small>
     <span class="last-updated">
-      Updated: {{ site.time | date: "%-d %B %Y" }}
+      Updated: {{ site.time | date: "%-d %B %Y, %H:%M" }}
     </span>
   </p>
 
