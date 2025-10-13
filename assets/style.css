@@ -203,21 +203,56 @@ footer {
 
 /* ---------- Admonitions (callouts) ---------- */
 .admonition {
-  border-left: 3px solid var(--accent);
-  background: rgba(52, 211, 153, 0.10); /* light green tint */
-  padding: 0.9rem 1rem;
-  margin: 1.25rem 0;
+  border-left: 4px solid var(--accent);
   border-radius: 6px;
+  padding: 1rem 1.2rem;
+  margin: 1.5rem 0;
+  background: rgba(52, 211, 153, 0.08);
+  color: var(--fg);
+  position: relative;
+  line-height: 1.55;
 }
 
+/* title line inside box */
 .admonition strong:first-child {
   display: block;
-  margin-bottom: 0.35rem;
-  color: var(--accent);
   font-weight: 600;
+  margin-bottom: 0.4rem;
 }
 
-/* Optional variants (use if you want different colors) */
-.admonition.info   { border-left-color: #60a5fa; background: rgba(96,165,250,0.12); }
-.admonition.warn   { border-left-color: #f59e0b; background: rgba(245,158,11,0.12); }
-.admonition.danger { border-left-color: #f87171; background: rgba(248,113,113,0.12); }
+/* icon slot */
+.admonition::before {
+  position: absolute;
+  left: -1.75rem;
+  top: 1.1rem;
+  font-size: 1.2rem;
+}
+
+/* Variants -------------------------------------------------- */
+.admonition.info {
+  border-color: #60a5fa;
+  background: rgba(96,165,250,0.10);
+  color: #3b82f6;
+}
+.admonition.info::before { content: "ℹ️"; }
+
+.admonition.warn {
+  border-color: #fbbf24;
+  background: rgba(251,191,36,0.10);
+  color: #d97706;
+}
+.admonition.warn::before { content: "⚠️"; }
+
+.admonition.danger {
+  border-color: #f87171;
+  background: rgba(248,113,113,0.10);
+  color: #dc2626;
+}
+.admonition.danger::before { content: "❌"; }
+
+.admonition.tip {
+  border-color: #34d399;
+  background: rgba(52,211,153,0.10);
+  color: #059669;
+}
+.admonition.tip::before { content: "💡"; }
