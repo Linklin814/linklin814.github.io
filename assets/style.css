@@ -1,3 +1,6 @@
+:root { color-scheme: light dark; }  /* page supports both */
+html.dark { color-scheme: dark; }    /* when your dark class is active */
+
 /* ---------- Theme Tokens (Light default) ---------- */
 :root {
   --bg: #ffffff;
