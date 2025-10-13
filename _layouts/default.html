@@ -23,14 +23,11 @@
 <body class="">
   <header>
     <h1>
-      <a href="{{ '/' | relative_url }}" class="site-logo">
-        <svg class="logo-icon" viewBox="0 0 45 52" xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke="currentColor" aria-hidden="true">
-          <path d="M34.3359375,51.8359375 ... Z" fill="currentColor" fill-rule="nonzero"></path>
-        </svg>
+      <a href="{{ '/' | relative_url }}" class="site-logo" aria-label="Home">
+        <img src="{{ '/assets/imac-2002.svg' | relative_url }}" alt="imac logo" class="logo-icon" />
         {{ site.title }}
       </a>
-    </h1>
-    <button id="theme-toggle" class="theme-toggle">☾</button>
+    </h1>    <button id="theme-toggle" class="theme-toggle">☾</button>
   </header>
 
   <main>
