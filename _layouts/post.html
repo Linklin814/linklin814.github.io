@@ -6,7 +6,7 @@ layout: default
   <h2>{{ page.title }}</h2>
 
   <p class="post-date">
-    <small>{{ page.date | date: "%-d %B %Y}}</small>
+    <small>{{ page.date | date: "%-d %B %Y" }}</small>
     {% if page.last_modified_at %}
       <span class="last-updated">
         Updated: {{ page.last_modified_at | date: "%-d %B %Y, %H:%M" }} UTC
