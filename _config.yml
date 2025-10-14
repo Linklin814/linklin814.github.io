@@ -1,5 +1,5 @@
-url: "https://iliyan61.github.io"
-baseurl: "/iliyan61"
+url: "https://iliyan.dev"
+baseurl: ""
 title: Iliyan Jivraj
 plugins:
   - jekyll-last-modified-at
