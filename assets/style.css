@@ -160,10 +160,6 @@ h2 {
   border-bottom: 1px dotted var(--rule);
 }
 
-.writing li:last-child {
-  border-bottom: none;
-}
-
 .writing li span {
   min-width: 120px;
   color: var(--muted);
@@ -187,7 +183,7 @@ h2 {
 footer {
   margin-top: 40px;
   padding-top: 20px;
-  border-top: 1px solid var(--rule);
+  /* border-top: 1px solid var(--rule); */
   color: var(--muted);
   text-align: center;
   font-size: 0.9rem;
