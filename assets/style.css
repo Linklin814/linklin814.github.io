@@ -131,11 +131,18 @@ a:focus-visible {
   opacity: 0.9;
 }
 
-/* ---------- Headings ---------- */
+/* ---------- Headings ---------- 
 h2 {
   color: var(--accent);
   font-size: 1.3rem;
   margin-top: 2rem;
+}
+*/
+/* ---------- Post Title ---------- */
+.post-title {
+  color: var(--accent);
+  font-size: 1.6rem;
+  margin-top: 0;
 }
 
 /* ---------- Content Links ---------- */
