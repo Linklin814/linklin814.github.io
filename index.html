@@ -3,16 +3,10 @@ layout: default
 title: Home
 ---
 
-{% assign sections = "about,hobbies" | split: "," %}
-
-{% for section in sections %}
-  {% capture section_file %}{{ section }}.md{% endcapture %}
-  {% capture section_content %}
-    {% include_relative {{ section_file }} %}
-  {% endcapture %}
-
+{% for section in "about,hobbies" | split: "," %}
+  {% capture md %}{% include sections/{{ section }}.md %}{% endcapture %}
   <section class="{{ section }}">
-    {{ section_content | markdownify }}
+    {{ md | markdownify }}
   </section>
 {% endfor %}
 
