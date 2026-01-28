@@ -1,6 +1,6 @@
-url: "https://iliyan.dev"
+url: "https://annafranchi.me"
 baseurl: ""
-title: Iliyan Jivraj
+title: Anna Franchi
 plugins:
   - jekyll-last-modified-at
 markdown: kramdown
