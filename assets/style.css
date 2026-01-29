@@ -217,7 +217,7 @@ footer {
 }
 
 /* Title line (with icon inline) */
-.admonition strong{
+.admonition strong:first-of-type{
   display: flex;
   align-items: center;
   gap: 0.4rem;
