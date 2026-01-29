@@ -8,3 +8,5 @@ collections:
   sections:
     output: true
     sort_by: order
+  crafts:
+    output: true
