@@ -25,7 +25,7 @@ title: Home
   </ul>
   <h2>Crafting Projects</h2>
   <ul>
-    {% for post in site.posts %}
+    {% for post in site.crafts %}
       <li>
         <span>{{ post.date | date: "%d %b %Y" }}</span>
         <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
