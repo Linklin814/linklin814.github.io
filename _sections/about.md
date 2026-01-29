@@ -11,3 +11,5 @@ In addition to hardware cybersecturity, I have experience in manufacturing, cont
 > This site is currently under construction <br>
 > Please mind the gaps while posts are being put up
 {: .admonition .warn }
+
+Contact me at ee@annafranchi.me 
