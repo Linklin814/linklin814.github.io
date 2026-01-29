@@ -4,26 +4,26 @@ title: "First Project"
 date: 2026-1-28
 ---
 
-# testing
-## testing
-### testing
-#### testing
+# Intro
+
+Rummaging through my old electronics stuff, I found my very first electronics project, the project that got me into electrical engineering! It's a pencil that "speaks" when you write with it.
+
+I (very poorly) soldered on some devices to a partially build PCB. The way it works is that copper tape is attached to the PCB, which has a 9v battery strapped to it. If you're holding onto the copper tape and touching the graphite, as you draw the buzzer makes a sound. This means that the electricity from the 9V travels through the graphite and through you to the buzzer.
+
+I love soldering and have gotten much better since this first project many years ago, but it was a fun find in my bag of projects.
+
+# Pictures
+
+<img width="757" height="270" alt="image" src="https://github.com/user-attachments/assets/780ca5ba-a17d-413f-892f-c232bdd57e08" />
 
 
-> **Info**
-> Blue-toned info box.
-{: .admonition .info }
+# Specs
+- penicl
+- copper tape
+- random PCB
+- zip ties
+- 9V battery
+- buzzer
 
-> **Warning**
-> Amber-toned warning box.
-{: .admonition .warn }
-
-> **Danger**
-> Red-toned danger box.
-{: .admonition .danger }
-
-> **Tip**
-> Green-toned tip box.
-{: .admonition .tip }
 
 plz done 01:59 UTC
