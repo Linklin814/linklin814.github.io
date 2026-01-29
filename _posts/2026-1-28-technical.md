@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Temperature Sensor"
-date: 2025-10-13
+date: 2026-1-28
 ---
 
 # Intro
