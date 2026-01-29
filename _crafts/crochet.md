@@ -1,5 +1,5 @@
 ---
-layout: craft
+layout: post
 title: "test"
 date: 2025-10-13
 ---
@@ -27,4 +27,3 @@ date: 2025-10-13
 {: .admonition .tip }
 
 plz done 01:59 UTC
-
