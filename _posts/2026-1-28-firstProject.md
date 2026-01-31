@@ -24,6 +24,3 @@ I love soldering and have gotten much better since this first project many years
 - zip ties
 - 9V battery
 - buzzer
-
-
-plz done 01:59 UTC

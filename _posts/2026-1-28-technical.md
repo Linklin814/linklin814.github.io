@@ -20,4 +20,3 @@ This project started off as just an digital oven thermometer, since all I could 
 - thermocouples
 - temperature probes
 - OLED display
-
