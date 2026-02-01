@@ -25,5 +25,7 @@ date: 2026-2-1
 
 ## About This Recipe
 This is a very fancy title for a very lazy dinner, i mean boarderline misleading. you can also add whatever seasonings sound interesting. These are some that I like paprika, pepper, ginger, garlic powder, onion powder, etc.
+
 i do NOT recommend adding salt on top of the soy sauce unless you just really like salt. i generally buy frozen broccoli and cauliflower and edamame, but any stir-fry mix or whatever you have also work
+
 this is a recipe i like for when i am ill since it's light and quick, however i usually skip the sirachia in those cases. It meal-preps well because the rice can be frozen and warrmed up in the microwave for even faster serving
