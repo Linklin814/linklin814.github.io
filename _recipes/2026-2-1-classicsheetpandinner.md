@@ -36,4 +36,4 @@ date: 2026-2-1
 ## About This Recipe
 Lazy sheet pan dinners in the winter are so good. Throw this in the airfrier for 10 min (probably) at (uhhhhh maybe) 350 for it to be extra crispy. Really all you're looking or is for the potatoes to soften. The seasonings you use for this really don't matter, just add whatever you're in the mood for. Add vinegar, or lemon/lime juice for some acidity
 
-If you're replacing the turkey sausage for smaller, chicken sausages, use two instead of one.
+If you're replacing the turkey sausage for smaller, chicken sausages, use two instead of one. I recommend peeling at least the sweet potato, since the skin is tougher, but i promise it's not that deep if you don't.
