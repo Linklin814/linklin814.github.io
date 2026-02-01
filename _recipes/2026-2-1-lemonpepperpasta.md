@@ -28,7 +28,7 @@ date: 2026-2-1
 6. top with cheese
 7. add whatever protein you desire, if you would like.
 
-> **Warning**
+> **"Expert" Tip**
 > do not add salt if your lemon pepper pasta is not salt-free<br>
 > (i may or may not have learned this the hard way)
 {: .admonition .warn }
