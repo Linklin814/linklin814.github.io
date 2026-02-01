@@ -11,7 +11,7 @@ date: 2026-2-1
 > 1/4 cup rice<br>
 > 1 tbsp butter<br>
 > dash salt<br>
-> sprinkle red chilli flakes
+> sprinkle red chilli flakes<br>
 > 1 tbsp soy sauce<br>
 > 1 tsp lime juice<br>
 > drizzle sirachia
