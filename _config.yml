@@ -10,5 +10,5 @@ collections:
     sort_by: order
   crafts:
     output: true
-  Recipes:
+  recipes:
     output: true
